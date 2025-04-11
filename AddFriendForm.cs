@@ -21,7 +21,7 @@ namespace проект
             InitializeValidation();
 
             this.NewFriend = Friend;
-            
+
             photoPathTextBox.Text = Friend.PhotoPath;
             lastNameTextBox.Text = Friend.LastName;
             firstNameTextBox.Text = Friend.FirstName;
@@ -75,7 +75,7 @@ namespace проект
                 }
             }
         }
-        
+
 
         private void addFriendButton_Click(object sender, EventArgs e)
         {
@@ -162,7 +162,7 @@ namespace проект
                 firstNameErrorLabel.Visible = true;
                 return false;
             }
-            
+
             else if (firstName.Any(char.IsDigit))
             {
                 firstNameErrorLabel.Text = "Имя не должно содержать цифры.";

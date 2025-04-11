@@ -40,7 +40,7 @@ namespace проект
 
             UpdateList();
         }
-                
+
         private void searchButton_Click(object sender, EventArgs e)
         {
             UpdateList();
@@ -52,18 +52,18 @@ namespace проект
             {
                 string s = this.FriendListLB.SelectedItem.ToString();
 
-                int i1 = s.IndexOf("[")+1;
+                int i1 = s.IndexOf("[") + 1;
                 int i2 = s.IndexOf("]");
 
                 int ID = Convert.ToInt32(s.Substring(i1, i2 - i1));
 
                 //MessageBox.Show($"Вы выбрали: {ID}");
-            
+
                 Friend friend = SQLiteDataAccess.LoadPeople(ID);
 
                 FriendCardForm Card = new FriendCardForm(friend);
                 Card.ShowDialog();
-                
+
                 UpdateList();
             }
         }

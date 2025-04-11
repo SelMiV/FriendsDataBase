@@ -7,12 +7,12 @@ namespace проект
 {
     public partial class FriendCardForm : Form
     {
-        private Friend _friend; 
+        private Friend _friend;
 
         public FriendCardForm(Friend friend)
         {
             InitializeComponent();
-            _friend = friend; 
+            _friend = friend;
             LoadFriend();
         }
 
@@ -27,7 +27,7 @@ namespace проект
                 DateTL.Text = _friend.Date;
                 FullDescTL.Text = _friend.FullDescription;
 
-              
+
                 if (!string.IsNullOrEmpty(_friend.PhotoPath) && System.IO.File.Exists(_friend.PhotoPath))
                 {
                     try
@@ -69,7 +69,7 @@ namespace проект
 
         private void photoPictureBox_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void FriendCardForm_Load(object sender, EventArgs e)

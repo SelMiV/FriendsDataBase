@@ -30,9 +30,9 @@
         {
             this.photoPictureBox = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.roundButtons3 = new проект.RoundButtons();
-            this.roundButtons2 = new проект.RoundButtons();
-            this.roundButtons1 = new проект.RoundButtons();
+            this.editButton = new проект.RoundButtons();
+            this.deliteButton = new проект.RoundButtons();
+            this.backButton = new проект.RoundButtons();
             this.dateLabel = new System.Windows.Forms.Label();
             this.fulldescriptionLabel = new System.Windows.Forms.Label();
             this.lastNameLabel = new System.Windows.Forms.Label();
@@ -67,9 +67,9 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.roundButtons3);
-            this.panel1.Controls.Add(this.roundButtons2);
-            this.panel1.Controls.Add(this.roundButtons1);
+            this.panel1.Controls.Add(this.editButton);
+            this.panel1.Controls.Add(this.deliteButton);
+            this.panel1.Controls.Add(this.backButton);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -78,68 +78,71 @@
             this.panel1.TabIndex = 6;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // roundButtons3
+            // editButton
             // 
-            this.roundButtons3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.roundButtons3.BackColor2 = System.Drawing.Color.Silver;
-            this.roundButtons3.ButtonBorderColor = System.Drawing.Color.Black;
-            this.roundButtons3.ButtonHighlightColor = System.Drawing.Color.Orange;
-            this.roundButtons3.ButtonHighlightColor2 = System.Drawing.Color.OrangeRed;
-            this.roundButtons3.ButtonHighlightForeColor = System.Drawing.Color.Black;
-            this.roundButtons3.ButtonPressedColor = System.Drawing.Color.Red;
-            this.roundButtons3.ButtonPressedColor2 = System.Drawing.Color.Maroon;
-            this.roundButtons3.ButtonPressedForeColor = System.Drawing.Color.White;
-            this.roundButtons3.ButtonRoundRadius = 30;
-            this.roundButtons3.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.roundButtons3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.roundButtons3.Location = new System.Drawing.Point(641, 26);
-            this.roundButtons3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.roundButtons3.Name = "roundButtons3";
-            this.roundButtons3.Size = new System.Drawing.Size(159, 49);
-            this.roundButtons3.TabIndex = 2;
-            this.roundButtons3.Text = "Редактировать";
+            this.editButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
+            this.editButton.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
+            this.editButton.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
+            this.editButton.ButtonHighlightColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.editButton.ButtonHighlightColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.editButton.ButtonHighlightForeColor = System.Drawing.Color.Black;
+            this.editButton.ButtonPressedColor = System.Drawing.Color.White;
+            this.editButton.ButtonPressedColor2 = System.Drawing.Color.White;
+            this.editButton.ButtonPressedForeColor = System.Drawing.Color.Black;
+            this.editButton.ButtonRoundRadius = 30;
+            this.editButton.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.editButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
+            this.editButton.Location = new System.Drawing.Point(641, 26);
+            this.editButton.Margin = new System.Windows.Forms.Padding(4);
+            this.editButton.Name = "editButton";
+            this.editButton.Size = new System.Drawing.Size(159, 49);
+            this.editButton.TabIndex = 2;
+            this.editButton.Text = "Редактировать";
+            this.editButton.Click += new System.EventHandler(this.editButton_Click);
             // 
-            // roundButtons2
+            // deliteButton
             // 
-            this.roundButtons2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.roundButtons2.BackColor2 = System.Drawing.Color.Silver;
-            this.roundButtons2.ButtonBorderColor = System.Drawing.Color.Black;
-            this.roundButtons2.ButtonHighlightColor = System.Drawing.Color.Orange;
-            this.roundButtons2.ButtonHighlightColor2 = System.Drawing.Color.OrangeRed;
-            this.roundButtons2.ButtonHighlightForeColor = System.Drawing.Color.Black;
-            this.roundButtons2.ButtonPressedColor = System.Drawing.Color.Red;
-            this.roundButtons2.ButtonPressedColor2 = System.Drawing.Color.Maroon;
-            this.roundButtons2.ButtonPressedForeColor = System.Drawing.Color.White;
-            this.roundButtons2.ButtonRoundRadius = 30;
-            this.roundButtons2.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.roundButtons2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.roundButtons2.Location = new System.Drawing.Point(471, 26);
-            this.roundButtons2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.roundButtons2.Name = "roundButtons2";
-            this.roundButtons2.Size = new System.Drawing.Size(133, 49);
-            this.roundButtons2.TabIndex = 1;
-            this.roundButtons2.Text = "Удалить";
+            this.deliteButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
+            this.deliteButton.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
+            this.deliteButton.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
+            this.deliteButton.ButtonHighlightColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.deliteButton.ButtonHighlightColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.deliteButton.ButtonHighlightForeColor = System.Drawing.Color.Black;
+            this.deliteButton.ButtonPressedColor = System.Drawing.Color.White;
+            this.deliteButton.ButtonPressedColor2 = System.Drawing.Color.White;
+            this.deliteButton.ButtonPressedForeColor = System.Drawing.Color.Black;
+            this.deliteButton.ButtonRoundRadius = 30;
+            this.deliteButton.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.deliteButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
+            this.deliteButton.Location = new System.Drawing.Point(471, 26);
+            this.deliteButton.Margin = new System.Windows.Forms.Padding(4);
+            this.deliteButton.Name = "deliteButton";
+            this.deliteButton.Size = new System.Drawing.Size(133, 49);
+            this.deliteButton.TabIndex = 1;
+            this.deliteButton.Text = "Удалить";
+            this.deliteButton.Click += new System.EventHandler(this.deliteButton_Click);
             // 
-            // roundButtons1
+            // backButton
             // 
-            this.roundButtons1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.roundButtons1.BackColor2 = System.Drawing.Color.Silver;
-            this.roundButtons1.ButtonBorderColor = System.Drawing.Color.Black;
-            this.roundButtons1.ButtonHighlightColor = System.Drawing.Color.Orange;
-            this.roundButtons1.ButtonHighlightColor2 = System.Drawing.Color.OrangeRed;
-            this.roundButtons1.ButtonHighlightForeColor = System.Drawing.Color.Black;
-            this.roundButtons1.ButtonPressedColor = System.Drawing.Color.Red;
-            this.roundButtons1.ButtonPressedColor2 = System.Drawing.Color.Maroon;
-            this.roundButtons1.ButtonPressedForeColor = System.Drawing.Color.White;
-            this.roundButtons1.ButtonRoundRadius = 30;
-            this.roundButtons1.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.roundButtons1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.roundButtons1.Location = new System.Drawing.Point(33, 26);
-            this.roundButtons1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.roundButtons1.Name = "roundButtons1";
-            this.roundButtons1.Size = new System.Drawing.Size(133, 49);
-            this.roundButtons1.TabIndex = 0;
-            this.roundButtons1.Text = "Назад";
+            this.backButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
+            this.backButton.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
+            this.backButton.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
+            this.backButton.ButtonHighlightColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.backButton.ButtonHighlightColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.backButton.ButtonHighlightForeColor = System.Drawing.Color.Black;
+            this.backButton.ButtonPressedColor = System.Drawing.Color.White;
+            this.backButton.ButtonPressedColor2 = System.Drawing.Color.White;
+            this.backButton.ButtonPressedForeColor = System.Drawing.Color.Black;
+            this.backButton.ButtonRoundRadius = 30;
+            this.backButton.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.backButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
+            this.backButton.Location = new System.Drawing.Point(33, 26);
+            this.backButton.Margin = new System.Windows.Forms.Padding(4);
+            this.backButton.Name = "backButton";
+            this.backButton.Size = new System.Drawing.Size(133, 49);
+            this.backButton.TabIndex = 0;
+            this.backButton.Text = "Назад";
+            this.backButton.Click += new System.EventHandler(this.backButton_Click);
             // 
             // dateLabel
             // 
@@ -169,7 +172,6 @@
             // lastNameLabel
             // 
             this.lastNameLabel.AutoSize = true;
-            this.lastNameLabel.BackColor = System.Drawing.Color.Black;
             this.lastNameLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lastNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
             this.lastNameLabel.Location = new System.Drawing.Point(331, 135);
@@ -304,7 +306,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
             this.ClientSize = new System.Drawing.Size(821, 492);
             this.Controls.Add(this.FullDescTL);
             this.Controls.Add(this.DateTL);
@@ -349,8 +351,8 @@
         private System.Windows.Forms.Label PhoneTL;
         private System.Windows.Forms.Label DateTL;
         private System.Windows.Forms.Label FullDescTL;
-        private RoundButtons roundButtons3;
-        private RoundButtons roundButtons2;
-        private RoundButtons roundButtons1;
+        private RoundButtons editButton;
+        private RoundButtons deliteButton;
+        private RoundButtons backButton;
     }
 }

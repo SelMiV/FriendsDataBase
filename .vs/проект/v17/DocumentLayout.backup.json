@@ -1,58 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\",
+  "WorkspaceRootPath": "C:\\project\\FriendsDataBase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\roundbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:roundbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|c:\\users\\seliv\\onedrive\\desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\friendcardform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:friendcardform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\friendcardform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:friendcardform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\addfriendform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:addfriendform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\addfriendform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\project\\FriendsDataBase\\addfriendform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:addfriendform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\sqlitedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:sqlitedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\project\\FriendsDataBase\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\addfriendform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:addfriendform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\project\\FriendsDataBase\\friendcardform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:friendcardform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\friend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\project\\FriendsDataBase\\friendcardform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:friendcardform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|c:\\project\\friendsdatabase\\friendcardform .designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:friendcardform .designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\project\\FriendsDataBase\\friend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:friend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\project\\FriendsDataBase\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\project\\FriendsDataBase\\addfriendform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:addfriendform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\project\\FriendsDataBase\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|c:\\project\\friendsdatabase\\addfriendform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:addfriendform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\project\\FriendsDataBase\\roundbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:roundbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\project\\FriendsDataBase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\project\\FriendsDataBase\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\project\\FriendsDataBase\\sqlitedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:sqlitedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,47 +78,62 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "FriendCardForm .Designer.cs",
+              "DocumentMoniker": "C:\\project\\FriendsDataBase\\FriendCardForm .Designer.cs",
+              "RelativeDocumentMoniker": "FriendCardForm .Designer.cs",
+              "ToolTip": "C:\\project\\FriendsDataBase\\FriendCardForm .Designer.cs*",
+              "RelativeToolTip": "FriendCardForm .Designer.cs*",
+              "ViewState": "AgIAACAAAAAAAAAAAAAYwNkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T06:01:32.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "RoundButton.cs",
-              "DocumentMoniker": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\RoundButton.cs",
+              "DocumentMoniker": "C:\\project\\FriendsDataBase\\RoundButton.cs",
               "RelativeDocumentMoniker": "RoundButton.cs",
-              "ToolTip": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\RoundButton.cs",
+              "ToolTip": "C:\\project\\FriendsDataBase\\RoundButton.cs",
               "RelativeToolTip": "RoundButton.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwIoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAkwI0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T22:10:14.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddFriendForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\AddFriendForm.Designer.cs",
-              "RelativeDocumentMoniker": "AddFriendForm.Designer.cs",
-              "ToolTip": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\AddFriendForm.Designer.cs",
-              "RelativeToolTip": "AddFriendForm.Designer.cs",
-              "ViewState": "AgIAAGUBAAAAAAAAAAAYwHcBAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T21:40:41.65Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AddFriendForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\AddFriendForm.cs",
-              "RelativeDocumentMoniker": "AddFriendForm.cs",
-              "ToolTip": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\AddFriendForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "AddFriendForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T21:40:10.108Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "AddFriendForm.Designer.cs",
+              "DocumentMoniker": "C:\\project\\FriendsDataBase\\AddFriendForm.Designer.cs",
+              "RelativeDocumentMoniker": "AddFriendForm.Designer.cs",
+              "ToolTip": "C:\\project\\FriendsDataBase\\AddFriendForm.Designer.cs*",
+              "RelativeToolTip": "AddFriendForm.Designer.cs*",
+              "ViewState": "AgIAAGUBAAAAAAAAAAAYwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T21:40:41.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddFriendForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\project\\FriendsDataBase\\AddFriendForm.cs",
+              "RelativeDocumentMoniker": "AddFriendForm.cs",
+              "ToolTip": "C:\\project\\FriendsDataBase\\AddFriendForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "RelativeToolTip": "AddFriendForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T21:40:10.108Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "SQLiteDataAccess.cs",
-              "DocumentMoniker": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\SQLiteDataAccess.cs",
+              "DocumentMoniker": "C:\\project\\FriendsDataBase\\SQLiteDataAccess.cs",
               "RelativeDocumentMoniker": "SQLiteDataAccess.cs",
-              "ToolTip": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\SQLiteDataAccess.cs",
+              "ToolTip": "C:\\project\\FriendsDataBase\\SQLiteDataAccess.cs",
               "RelativeToolTip": "SQLiteDataAccess.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAADIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -122,11 +141,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\App.config",
+              "DocumentMoniker": "C:\\project\\FriendsDataBase\\App.config",
               "RelativeDocumentMoniker": "App.config",
-              "ToolTip": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\App.config",
+              "ToolTip": "C:\\project\\FriendsDataBase\\App.config",
               "RelativeToolTip": "App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
@@ -135,98 +154,102 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "FriendCardForm .cs",
-              "DocumentMoniker": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\FriendCardForm .cs",
+              "DocumentMoniker": "C:\\project\\FriendsDataBase\\FriendCardForm .cs",
               "RelativeDocumentMoniker": "FriendCardForm .cs",
-              "ToolTip": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\FriendCardForm .cs",
-              "RelativeToolTip": "FriendCardForm .cs",
-              "ViewState": "AgIAACMAAAAAAAAAAADwv0IAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\project\\FriendsDataBase\\FriendCardForm .cs*",
+              "RelativeToolTip": "FriendCardForm .cs*",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAwEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:29:02.162Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AddFriendForm.cs",
-              "DocumentMoniker": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\AddFriendForm.cs",
-              "RelativeDocumentMoniker": "AddFriendForm.cs",
-              "ToolTip": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\AddFriendForm.cs",
-              "RelativeToolTip": "AddFriendForm.cs",
-              "ViewState": "AgIAAMwAAAAAAAAAAAAQwC0AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:05:45.918Z"
+              "WhenOpened": "2025-03-13T15:29:02.162Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "AddFriendForm.cs",
+              "DocumentMoniker": "C:\\project\\FriendsDataBase\\AddFriendForm.cs",
+              "RelativeDocumentMoniker": "AddFriendForm.cs",
+              "ToolTip": "C:\\project\\FriendsDataBase\\AddFriendForm.cs*",
+              "RelativeToolTip": "AddFriendForm.cs*",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAwwPAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:05:45.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\MainForm.cs",
+              "DocumentMoniker": "C:\\project\\FriendsDataBase\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\MainForm.cs",
-              "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAQwE0AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\project\\FriendsDataBase\\MainForm.cs*",
+              "RelativeToolTip": "MainForm.cs*",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T15:14:07.003Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "MainForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\project\\FriendsDataBase\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "MainForm.Designer.cs",
-              "ToolTip": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\MainForm.Designer.cs",
-              "RelativeToolTip": "MainForm.Designer.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAwE0AAAA4AAAAAAAAAA==",
+              "ToolTip": "C:\\project\\FriendsDataBase\\MainForm.Designer.cs*",
+              "RelativeToolTip": "MainForm.Designer.cs*",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T14:17:33.745Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\MainForm.cs",
+              "DocumentMoniker": "C:\\project\\FriendsDataBase\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "C:\\project\\FriendsDataBase\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "RelativeToolTip": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T15:03:05.32Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "FriendCardForm .cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\FriendCardForm .cs",
+              "DocumentMoniker": "C:\\project\\FriendsDataBase\\FriendCardForm .cs",
               "RelativeDocumentMoniker": "FriendCardForm .cs",
-              "ToolTip": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\FriendCardForm .cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "FriendCardForm .cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "C:\\project\\FriendsDataBase\\FriendCardForm .cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "RelativeToolTip": "FriendCardForm .cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:03:23.396Z"
+              "WhenOpened": "2025-03-13T15:03:23.396Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Friend.cs",
+              "DocumentMoniker": "C:\\project\\FriendsDataBase\\Friend.cs",
+              "RelativeDocumentMoniker": "Friend.cs",
+              "ToolTip": "C:\\project\\FriendsDataBase\\Friend.cs",
+              "RelativeToolTip": "Friend.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAzwAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T16:29:36.112Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Friend.cs",
-              "DocumentMoniker": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\Friend.cs",
-              "RelativeDocumentMoniker": "Friend.cs",
-              "ToolTip": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\Friend.cs",
-              "RelativeToolTip": "Friend.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAoAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T16:29:36.112Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\Program.cs",
+              "DocumentMoniker": "C:\\project\\FriendsDataBase\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\seliv\\OneDrive\\Desktop\\1\\\u043F\u0440\u043E\u0435\u043A\u0442\\Program.cs",
+              "ToolTip": "C:\\project\\FriendsDataBase\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T16:07:52.119Z",
               "EditorCaption": ""
