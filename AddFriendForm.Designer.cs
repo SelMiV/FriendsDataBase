@@ -37,6 +37,8 @@ namespace проект
             this.phoneTextBox = new System.Windows.Forms.MaskedTextBox();
             this.firstNameTextBox = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.addFriendButton = new проект.RoundButtons();
+            this.backButton = new проект.RoundButtons();
             this.newfriendLabel = new System.Windows.Forms.Label();
             this.lastNameLabel = new System.Windows.Forms.Label();
             this.surNameLabel = new System.Windows.Forms.Label();
@@ -57,14 +59,13 @@ namespace проект
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.photoPathTextBox = new System.Windows.Forms.TextBox();
             this.browsePhotoButton = new проект.RoundButtons();
-            this.addFriendButton = new проект.RoundButtons();
-            this.backButton = new проект.RoundButtons();
             ((System.ComponentModel.ISupportInitialize)(this.photoPictureBox)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // photoPictureBox
             // 
+            this.photoPictureBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.photoPictureBox.BackColor = System.Drawing.Color.Transparent;
             this.photoPictureBox.BackgroundImage = global::проект.Properties.Resources.ad9f1d23e02dd9acda2decb2fd77ac29;
             this.photoPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -79,6 +80,7 @@ namespace проект
             // 
             // firstNameLabel
             // 
+            this.firstNameLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.firstNameLabel.AutoSize = true;
             this.firstNameLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.firstNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
@@ -91,6 +93,7 @@ namespace проект
             // 
             // phoneLabel
             // 
+            this.phoneLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.phoneLabel.AutoSize = true;
             this.phoneLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.phoneLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
@@ -103,6 +106,7 @@ namespace проект
             // 
             // phoneTextBox
             // 
+            this.phoneTextBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.phoneTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.phoneTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.phoneTextBox.ForeColor = System.Drawing.Color.White;
@@ -115,6 +119,7 @@ namespace проект
             // 
             // firstNameTextBox
             // 
+            this.firstNameTextBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.firstNameTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.firstNameTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.firstNameTextBox.ForeColor = System.Drawing.Color.White;
@@ -138,8 +143,58 @@ namespace проект
             this.panel1.Size = new System.Drawing.Size(663, 64);
             this.panel1.TabIndex = 8;
             // 
+            // addFriendButton
+            // 
+            this.addFriendButton.AllowDrop = true;
+            this.addFriendButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.addFriendButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
+            this.addFriendButton.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
+            this.addFriendButton.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
+            this.addFriendButton.ButtonHighlightColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.addFriendButton.ButtonHighlightColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.addFriendButton.ButtonHighlightForeColor = System.Drawing.Color.Black;
+            this.addFriendButton.ButtonPressedColor = System.Drawing.Color.White;
+            this.addFriendButton.ButtonPressedColor2 = System.Drawing.Color.White;
+            this.addFriendButton.ButtonPressedForeColor = System.Drawing.Color.Black;
+            this.addFriendButton.ButtonRoundRadius = 30;
+            this.addFriendButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.addFriendButton.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.addFriendButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
+            this.addFriendButton.Location = new System.Drawing.Point(486, 10);
+            this.addFriendButton.Margin = new System.Windows.Forms.Padding(2);
+            this.addFriendButton.Name = "addFriendButton";
+            this.addFriendButton.Size = new System.Drawing.Size(112, 49);
+            this.addFriendButton.TabIndex = 27;
+            this.addFriendButton.Text = "Добавить друга";
+            this.addFriendButton.Click += new System.EventHandler(this.addFriendButton_Click);
+            // 
+            // backButton
+            // 
+            this.backButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.backButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
+            this.backButton.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
+            this.backButton.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
+            this.backButton.ButtonHighlightColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.backButton.ButtonHighlightColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.backButton.ButtonHighlightForeColor = System.Drawing.Color.Black;
+            this.backButton.ButtonPressedColor = System.Drawing.Color.White;
+            this.backButton.ButtonPressedColor2 = System.Drawing.Color.White;
+            this.backButton.ButtonPressedForeColor = System.Drawing.Color.Black;
+            this.backButton.ButtonRoundRadius = 30;
+            this.backButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.backButton.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.backButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
+            this.backButton.Location = new System.Drawing.Point(9, 10);
+            this.backButton.Margin = new System.Windows.Forms.Padding(2);
+            this.backButton.Name = "backButton";
+            this.backButton.Size = new System.Drawing.Size(112, 49);
+            this.backButton.TabIndex = 26;
+            this.backButton.Text = "Назад";
+            this.backButton.Click += new System.EventHandler(this.backButton_Click);
+            // 
             // newfriendLabel
             // 
+            this.newfriendLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.newfriendLabel.AutoSize = true;
             this.newfriendLabel.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.newfriendLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
@@ -152,6 +207,7 @@ namespace проект
             // 
             // lastNameLabel
             // 
+            this.lastNameLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lastNameLabel.AutoSize = true;
             this.lastNameLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lastNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
@@ -164,6 +220,7 @@ namespace проект
             // 
             // surNameLabel
             // 
+            this.surNameLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.surNameLabel.AutoSize = true;
             this.surNameLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.surNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
@@ -176,6 +233,7 @@ namespace проект
             // 
             // dateLabel
             // 
+            this.dateLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.dateLabel.AutoSize = true;
             this.dateLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dateLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
@@ -188,6 +246,7 @@ namespace проект
             // 
             // descriptionLabel
             // 
+            this.descriptionLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.descriptionLabel.AutoSize = true;
             this.descriptionLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.descriptionLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
@@ -200,6 +259,7 @@ namespace проект
             // 
             // fulldescriptionLabel
             // 
+            this.fulldescriptionLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.fulldescriptionLabel.AutoSize = true;
             this.fulldescriptionLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.fulldescriptionLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
@@ -212,6 +272,7 @@ namespace проект
             // 
             // lastNameTextBox
             // 
+            this.lastNameTextBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lastNameTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.lastNameTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lastNameTextBox.ForeColor = System.Drawing.Color.White;
@@ -224,6 +285,7 @@ namespace проект
             // 
             // surNameTextBox
             // 
+            this.surNameTextBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.surNameTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.surNameTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.surNameTextBox.ForeColor = System.Drawing.Color.White;
@@ -236,6 +298,7 @@ namespace проект
             // 
             // descriptionTextBox
             // 
+            this.descriptionTextBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.descriptionTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.descriptionTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.descriptionTextBox.ForeColor = System.Drawing.Color.White;
@@ -247,6 +310,7 @@ namespace проект
             // 
             // fulldescriptionTextBox
             // 
+            this.fulldescriptionTextBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.fulldescriptionTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.fulldescriptionTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.fulldescriptionTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
@@ -259,6 +323,7 @@ namespace проект
             // 
             // photoLabel
             // 
+            this.photoLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.photoLabel.AutoSize = true;
             this.photoLabel.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.photoLabel.ForeColor = System.Drawing.Color.PaleTurquoise;
@@ -281,6 +346,7 @@ namespace проект
             // 
             // phoneErrorLabel
             // 
+            this.phoneErrorLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.phoneErrorLabel.AutoEllipsis = true;
             this.phoneErrorLabel.AutoSize = true;
             this.phoneErrorLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
@@ -300,6 +366,7 @@ namespace проект
             // 
             // dateDateTimePicker
             // 
+            this.dateDateTimePicker.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.dateDateTimePicker.CalendarForeColor = System.Drawing.Color.PaleTurquoise;
             this.dateDateTimePicker.CalendarTitleBackColor = System.Drawing.Color.PaleTurquoise;
             this.dateDateTimePicker.CalendarTitleForeColor = System.Drawing.Color.PaleTurquoise;
@@ -334,6 +401,7 @@ namespace проект
             // 
             // photoPathTextBox
             // 
+            this.photoPathTextBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.photoPathTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.photoPathTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.photoPathTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
@@ -344,6 +412,7 @@ namespace проект
             // 
             // browsePhotoButton
             // 
+            this.browsePhotoButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.browsePhotoButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.browsePhotoButton.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.browsePhotoButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
@@ -355,6 +424,7 @@ namespace проект
             this.browsePhotoButton.ButtonPressedColor2 = System.Drawing.Color.Black;
             this.browsePhotoButton.ButtonPressedForeColor = System.Drawing.Color.Black;
             this.browsePhotoButton.ButtonRoundRadius = 30;
+            this.browsePhotoButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.browsePhotoButton.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.browsePhotoButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
             this.browsePhotoButton.Location = new System.Drawing.Point(44, 254);
@@ -364,51 +434,6 @@ namespace проект
             this.browsePhotoButton.TabIndex = 28;
             this.browsePhotoButton.Text = "(нажмите, чтобы загрузить фото)";
             this.browsePhotoButton.Click += new System.EventHandler(this.browsePhotoButton_Click);
-            // 
-            // addFriendButton
-            // 
-            this.addFriendButton.AllowDrop = true;
-            this.addFriendButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.addFriendButton.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.addFriendButton.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.addFriendButton.ButtonHighlightColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.addFriendButton.ButtonHighlightColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.addFriendButton.ButtonHighlightForeColor = System.Drawing.Color.Black;
-            this.addFriendButton.ButtonPressedColor = System.Drawing.Color.White;
-            this.addFriendButton.ButtonPressedColor2 = System.Drawing.Color.White;
-            this.addFriendButton.ButtonPressedForeColor = System.Drawing.Color.Black;
-            this.addFriendButton.ButtonRoundRadius = 30;
-            this.addFriendButton.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.addFriendButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.addFriendButton.Location = new System.Drawing.Point(486, 10);
-            this.addFriendButton.Margin = new System.Windows.Forms.Padding(2);
-            this.addFriendButton.Name = "addFriendButton";
-            this.addFriendButton.Size = new System.Drawing.Size(112, 49);
-            this.addFriendButton.TabIndex = 27;
-            this.addFriendButton.Text = "Добавить друга";
-            this.addFriendButton.Click += new System.EventHandler(this.addFriendButton_Click);
-            // 
-            // backButton
-            // 
-            this.backButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.backButton.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.backButton.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.backButton.ButtonHighlightColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.backButton.ButtonHighlightColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.backButton.ButtonHighlightForeColor = System.Drawing.Color.Black;
-            this.backButton.ButtonPressedColor = System.Drawing.Color.White;
-            this.backButton.ButtonPressedColor2 = System.Drawing.Color.White;
-            this.backButton.ButtonPressedForeColor = System.Drawing.Color.Black;
-            this.backButton.ButtonRoundRadius = 30;
-            this.backButton.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.backButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.backButton.Location = new System.Drawing.Point(9, 10);
-            this.backButton.Margin = new System.Windows.Forms.Padding(2);
-            this.backButton.Name = "backButton";
-            this.backButton.Size = new System.Drawing.Size(112, 49);
-            this.backButton.TabIndex = 26;
-            this.backButton.Text = "Назад";
-            this.backButton.Click += new System.EventHandler(this.backButton_Click);
             // 
             // AddFriendForm
             // 
