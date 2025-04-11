@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|D:\\downloads\\uglyabez9na\\FriendsDataBase\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|d:\\downloads\\uglyabez9na\\friendsdatabase\\friendcardform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|D:\\downloads\\uglyabez9na\\FriendsDataBase\\friendcardform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:friendcardform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|D:\\downloads\\uglyabez9na\\FriendsDataBase\\addfriendform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:addfriendform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|d:\\downloads\\uglyabez9na\\friendsdatabase\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|D:\\downloads\\uglyabez9na\\FriendsDataBase\\addfriendform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
@@ -108,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AddFriendForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\AddFriendForm.cs",
               "RelativeDocumentMoniker": "AddFriendForm.cs",
@@ -128,8 +128,7 @@
               "RelativeToolTip": "SQLiteDataAccess.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAADIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T12:59:16.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T12:59:16.992Z"
             },
             {
               "$type": "Document",
@@ -198,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
@@ -210,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FriendCardForm .cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\FriendCardForm .cs",
               "RelativeDocumentMoniker": "FriendCardForm .cs",
