@@ -77,6 +77,11 @@ namespace проект
         {
 
         }
+
+        private void searchTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
 

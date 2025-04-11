@@ -74,7 +74,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(821, 100);
+            this.panel1.Size = new System.Drawing.Size(882, 100);
             this.panel1.TabIndex = 6;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -307,7 +307,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.ClientSize = new System.Drawing.Size(821, 492);
+            this.ClientSize = new System.Drawing.Size(882, 503);
             this.Controls.Add(this.FullDescTL);
             this.Controls.Add(this.DateTL);
             this.Controls.Add(this.PhoneTL);
@@ -325,6 +325,7 @@
             this.Controls.Add(this.photoPictureBox);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MinimumSize = new System.Drawing.Size(900, 550);
             this.Name = "FriendCardForm";
             this.Load += new System.EventHandler(this.FriendCardForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.photoPictureBox)).EndInit();

@@ -134,7 +134,7 @@ namespace проект
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 79);
+            this.panel1.Size = new System.Drawing.Size(882, 79);
             this.panel1.TabIndex = 8;
             // 
             // addFriendButton
@@ -325,6 +325,7 @@ namespace проект
             // 
             // phoneErrorLabel
             // 
+            this.phoneErrorLabel.AutoEllipsis = true;
             this.phoneErrorLabel.AutoSize = true;
             this.phoneErrorLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
             this.phoneErrorLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
@@ -348,7 +349,7 @@ namespace проект
             this.dateDateTimePicker.CalendarTitleBackColor = System.Drawing.Color.PaleTurquoise;
             this.dateDateTimePicker.CalendarTitleForeColor = System.Drawing.Color.PaleTurquoise;
             this.dateDateTimePicker.Location = new System.Drawing.Point(323, 368);
-            this.dateDateTimePicker.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateDateTimePicker.Margin = new System.Windows.Forms.Padding(4);
             this.dateDateTimePicker.Name = "dateDateTimePicker";
             this.dateDateTimePicker.Size = new System.Drawing.Size(265, 22);
             this.dateDateTimePicker.TabIndex = 27;
@@ -356,6 +357,8 @@ namespace проект
             // lastNameErrorLabel
             // 
             this.lastNameErrorLabel.AutoSize = true;
+            this.lastNameErrorLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
+            this.lastNameErrorLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
             this.lastNameErrorLabel.Location = new System.Drawing.Point(463, 222);
             this.lastNameErrorLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lastNameErrorLabel.Name = "lastNameErrorLabel";
@@ -365,6 +368,8 @@ namespace проект
             // surNameErrorLabel
             // 
             this.surNameErrorLabel.AutoSize = true;
+            this.surNameErrorLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
+            this.surNameErrorLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
             this.surNameErrorLabel.Location = new System.Drawing.Point(463, 277);
             this.surNameErrorLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.surNameErrorLabel.Name = "surNameErrorLabel";
@@ -381,7 +386,7 @@ namespace проект
             this.photoPathTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.photoPathTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
             this.photoPathTextBox.Location = new System.Drawing.Point(63, 385);
-            this.photoPathTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.photoPathTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.photoPathTextBox.Name = "photoPathTextBox";
             this.photoPathTextBox.Size = new System.Drawing.Size(169, 15);
             this.photoPathTextBox.TabIndex = 30;
@@ -413,7 +418,7 @@ namespace проект
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(882, 503);
             this.Controls.Add(this.browsePhotoButton);
             this.Controls.Add(this.photoPathTextBox);
             this.Controls.Add(this.surNameErrorLabel);
@@ -439,6 +444,7 @@ namespace проект
             this.Controls.Add(this.firstNameLabel);
             this.Controls.Add(this.photoPictureBox);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MinimumSize = new System.Drawing.Size(900, 550);
             this.Name = "AddFriendForm";
             this.Text = "Окно добавления друга";
             this.Load += new System.EventHandler(this.AddFriendForm_Load);
