@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.addFriendButton = new проект.RoundButtons();
@@ -45,10 +46,10 @@
             this.panel1.AutoSize = true;
             this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 415);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Location = new System.Drawing.Point(0, 511);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(663, 0);
+            this.panel1.Size = new System.Drawing.Size(884, 0);
             this.panel1.TabIndex = 2;
             // 
             // panel2
@@ -59,9 +60,9 @@
             this.panel2.Controls.Add(this.searchTextBox);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(663, 81);
+            this.panel2.Size = new System.Drawing.Size(884, 100);
             this.panel2.TabIndex = 3;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
@@ -81,9 +82,10 @@
             this.addFriendButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.addFriendButton.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.addFriendButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.addFriendButton.Location = new System.Drawing.Point(549, 21);
+            this.addFriendButton.Location = new System.Drawing.Point(732, 26);
+            this.addFriendButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.addFriendButton.Name = "addFriendButton";
-            this.addFriendButton.Size = new System.Drawing.Size(100, 40);
+            this.addFriendButton.Size = new System.Drawing.Size(133, 49);
             this.addFriendButton.TabIndex = 3;
             this.addFriendButton.Text = "Добавить друга";
             this.addFriendButton.Click += new System.EventHandler(this.addFriendButton_Click);
@@ -94,9 +96,10 @@
             this.searchLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
             this.searchLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.searchLabel.ForeColor = System.Drawing.Color.PaleTurquoise;
-            this.searchLabel.Location = new System.Drawing.Point(12, 27);
+            this.searchLabel.Location = new System.Drawing.Point(16, 33);
+            this.searchLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.searchLabel.Name = "searchLabel";
-            this.searchLabel.Size = new System.Drawing.Size(78, 15);
+            this.searchLabel.Size = new System.Drawing.Size(92, 18);
             this.searchLabel.TabIndex = 2;
             this.searchLabel.Text = "Найти друга";
             // 
@@ -106,17 +109,18 @@
             this.searchTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.searchTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.searchTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.searchTextBox.Location = new System.Drawing.Point(98, 26);
-            this.searchTextBox.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.searchTextBox.Location = new System.Drawing.Point(131, 32);
+            this.searchTextBox.Margin = new System.Windows.Forms.Padding(13, 0, 13, 0);
             this.searchTextBox.Name = "searchTextBox";
-            this.searchTextBox.Size = new System.Drawing.Size(400, 16);
+            this.searchTextBox.Size = new System.Drawing.Size(533, 19);
             this.searchTextBox.TabIndex = 1;
             // 
             // flowLayoutPanel2
             // 
             this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(663, 415);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(884, 511);
             this.flowLayoutPanel2.TabIndex = 5;
             // 
             // FriendListLB
@@ -127,10 +131,11 @@
             this.FriendListLB.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FriendListLB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
             this.FriendListLB.FormattingEnabled = true;
-            this.FriendListLB.Location = new System.Drawing.Point(2, 2);
-            this.FriendListLB.Margin = new System.Windows.Forms.Padding(2);
+            this.FriendListLB.ItemHeight = 16;
+            this.FriendListLB.Location = new System.Drawing.Point(3, 2);
+            this.FriendListLB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.FriendListLB.Name = "FriendListLB";
-            this.FriendListLB.Size = new System.Drawing.Size(625, 312);
+            this.FriendListLB.Size = new System.Drawing.Size(833, 384);
             this.FriendListLB.TabIndex = 0;
             this.FriendListLB.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -140,25 +145,26 @@
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
             this.flowLayoutPanel1.Controls.Add(this.FriendListLB);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 81);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 100);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(663, 334);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(884, 411);
             this.flowLayoutPanel1.TabIndex = 4;
             this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.ClientSize = new System.Drawing.Size(663, 415);
+            this.ClientSize = new System.Drawing.Size(884, 511);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.flowLayoutPanel2);
-            this.Margin = new System.Windows.Forms.Padding(2);
-            this.MinimumSize = new System.Drawing.Size(679, 454);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MinimumSize = new System.Drawing.Size(899, 548);
             this.Name = "MainForm";
             this.Text = "Список друзей";
             this.panel2.ResumeLayout(false);

@@ -19,6 +19,7 @@ namespace проект
 
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FriendCardForm));
             this.mainTableLayout = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.editButton = new проект.RoundButtons();
@@ -59,11 +60,12 @@ namespace проект
             this.mainTableLayout.Controls.Add(this.contentTableLayout, 0, 1);
             this.mainTableLayout.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainTableLayout.Location = new System.Drawing.Point(0, 0);
+            this.mainTableLayout.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.mainTableLayout.Name = "mainTableLayout";
             this.mainTableLayout.RowCount = 2;
-            this.mainTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 80F));
+            this.mainTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 98F));
             this.mainTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.mainTableLayout.Size = new System.Drawing.Size(664, 415);
+            this.mainTableLayout.Size = new System.Drawing.Size(885, 511);
             this.mainTableLayout.TabIndex = 0;
             // 
             // panel1
@@ -72,9 +74,10 @@ namespace проект
             this.panel1.Controls.Add(this.deliteButton);
             this.panel1.Controls.Add(this.backButton);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Location = new System.Drawing.Point(4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(658, 74);
+            this.panel1.Size = new System.Drawing.Size(877, 90);
             this.panel1.TabIndex = 0;
             // 
             // editButton
@@ -93,9 +96,10 @@ namespace проект
             this.editButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.editButton.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.editButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.editButton.Location = new System.Drawing.Point(482, 17);
+            this.editButton.Location = new System.Drawing.Point(643, 21);
+            this.editButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.editButton.Name = "editButton";
-            this.editButton.Size = new System.Drawing.Size(119, 40);
+            this.editButton.Size = new System.Drawing.Size(159, 49);
             this.editButton.TabIndex = 2;
             this.editButton.Text = "Редактировать";
             this.editButton.Click += new System.EventHandler(this.editButton_Click);
@@ -116,9 +120,10 @@ namespace проект
             this.deliteButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.deliteButton.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.deliteButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.deliteButton.Location = new System.Drawing.Point(354, 17);
+            this.deliteButton.Location = new System.Drawing.Point(472, 21);
+            this.deliteButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.deliteButton.Name = "deliteButton";
-            this.deliteButton.Size = new System.Drawing.Size(100, 40);
+            this.deliteButton.Size = new System.Drawing.Size(133, 49);
             this.deliteButton.TabIndex = 1;
             this.deliteButton.Text = "Удалить";
             this.deliteButton.Click += new System.EventHandler(this.deliteButton_Click);
@@ -138,9 +143,10 @@ namespace проект
             this.backButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.backButton.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.backButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.backButton.Location = new System.Drawing.Point(25, 17);
+            this.backButton.Location = new System.Drawing.Point(33, 21);
+            this.backButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.backButton.Name = "backButton";
-            this.backButton.Size = new System.Drawing.Size(100, 40);
+            this.backButton.Size = new System.Drawing.Size(133, 49);
             this.backButton.TabIndex = 0;
             this.backButton.Text = "Назад";
             this.backButton.Click += new System.EventHandler(this.backButton_Click);
@@ -153,11 +159,12 @@ namespace проект
             this.contentTableLayout.Controls.Add(this.photoPanel, 0, 0);
             this.contentTableLayout.Controls.Add(this.detailsPanel, 1, 0);
             this.contentTableLayout.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.contentTableLayout.Location = new System.Drawing.Point(3, 83);
+            this.contentTableLayout.Location = new System.Drawing.Point(4, 102);
+            this.contentTableLayout.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.contentTableLayout.Name = "contentTableLayout";
             this.contentTableLayout.RowCount = 1;
             this.contentTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.contentTableLayout.Size = new System.Drawing.Size(658, 329);
+            this.contentTableLayout.Size = new System.Drawing.Size(877, 405);
             this.contentTableLayout.TabIndex = 1;
             // 
             // photoPanel
@@ -165,9 +172,10 @@ namespace проект
             this.photoPanel.Controls.Add(this.photoPictureBox);
             this.photoPanel.Controls.Add(this.photoLabel);
             this.photoPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.photoPanel.Location = new System.Drawing.Point(3, 3);
+            this.photoPanel.Location = new System.Drawing.Point(4, 4);
+            this.photoPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.photoPanel.Name = "photoPanel";
-            this.photoPanel.Size = new System.Drawing.Size(224, 323);
+            this.photoPanel.Size = new System.Drawing.Size(298, 397);
             this.photoPanel.TabIndex = 0;
             // 
             // photoPictureBox
@@ -176,9 +184,10 @@ namespace проект
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.photoPictureBox.BackColor = System.Drawing.Color.Transparent;
-            this.photoPictureBox.Location = new System.Drawing.Point(25, 50);
+            this.photoPictureBox.Location = new System.Drawing.Point(33, 62);
+            this.photoPictureBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.photoPictureBox.Name = "photoPictureBox";
-            this.photoPictureBox.Size = new System.Drawing.Size(173, 209);
+            this.photoPictureBox.Size = new System.Drawing.Size(230, 256);
             this.photoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.photoPictureBox.TabIndex = 0;
             this.photoPictureBox.TabStop = false;
@@ -190,9 +199,10 @@ namespace проект
             this.photoLabel.AutoSize = true;
             this.photoLabel.Font = new System.Drawing.Font("Lucida Console", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.photoLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.photoLabel.Location = new System.Drawing.Point(86, 20);
+            this.photoLabel.Location = new System.Drawing.Point(115, 25);
+            this.photoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.photoLabel.Name = "photoLabel";
-            this.photoLabel.Size = new System.Drawing.Size(52, 15);
+            this.photoLabel.Size = new System.Drawing.Size(64, 19);
             this.photoLabel.TabIndex = 23;
             this.photoLabel.Text = "Фото:";
             this.photoLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -201,9 +211,10 @@ namespace проект
             // 
             this.detailsPanel.Controls.Add(this.detailsTableLayout);
             this.detailsPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.detailsPanel.Location = new System.Drawing.Point(233, 3);
+            this.detailsPanel.Location = new System.Drawing.Point(310, 4);
+            this.detailsPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.detailsPanel.Name = "detailsPanel";
-            this.detailsPanel.Size = new System.Drawing.Size(422, 323);
+            this.detailsPanel.Size = new System.Drawing.Size(563, 397);
             this.detailsPanel.TabIndex = 1;
             // 
             // detailsTableLayout
@@ -225,6 +236,7 @@ namespace проект
             this.detailsTableLayout.Controls.Add(this.FullDescTL, 1, 5);
             this.detailsTableLayout.Dock = System.Windows.Forms.DockStyle.Fill;
             this.detailsTableLayout.Location = new System.Drawing.Point(0, 0);
+            this.detailsTableLayout.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.detailsTableLayout.Name = "detailsTableLayout";
             this.detailsTableLayout.RowCount = 6;
             this.detailsTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12F));
@@ -233,7 +245,7 @@ namespace проект
             this.detailsTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12F));
             this.detailsTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12F));
             this.detailsTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
-            this.detailsTableLayout.Size = new System.Drawing.Size(422, 323);
+            this.detailsTableLayout.Size = new System.Drawing.Size(563, 397);
             this.detailsTableLayout.TabIndex = 0;
             // 
             // lastNameLabel
@@ -242,9 +254,10 @@ namespace проект
             this.lastNameLabel.AutoSize = true;
             this.lastNameLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lastNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.lastNameLabel.Location = new System.Drawing.Point(3, 12);
+            this.lastNameLabel.Location = new System.Drawing.Point(4, 15);
+            this.lastNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lastNameLabel.Name = "lastNameLabel";
-            this.lastNameLabel.Size = new System.Drawing.Size(162, 13);
+            this.lastNameLabel.Size = new System.Drawing.Size(217, 17);
             this.lastNameLabel.TabIndex = 18;
             this.lastNameLabel.Text = "Фамилия:";
             this.lastNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -255,11 +268,11 @@ namespace проект
             this.LastNameTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.LastNameTL.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LastNameTL.ForeColor = System.Drawing.Color.White;
-            this.LastNameTL.Location = new System.Drawing.Point(171, 6);
-            this.LastNameTL.Margin = new System.Windows.Forms.Padding(3, 0, 10, 0);
-            this.LastNameTL.MinimumSize = new System.Drawing.Size(100, 25);
+            this.LastNameTL.Location = new System.Drawing.Point(229, 8);
+            this.LastNameTL.Margin = new System.Windows.Forms.Padding(4, 0, 13, 0);
+            this.LastNameTL.MinimumSize = new System.Drawing.Size(133, 31);
             this.LastNameTL.Name = "LastNameTL";
-            this.LastNameTL.Size = new System.Drawing.Size(241, 25);
+            this.LastNameTL.Size = new System.Drawing.Size(321, 31);
             this.LastNameTL.TabIndex = 24;
             // 
             // firstNameLabel
@@ -268,9 +281,10 @@ namespace проект
             this.firstNameLabel.AutoSize = true;
             this.firstNameLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.firstNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.firstNameLabel.Location = new System.Drawing.Point(3, 50);
+            this.firstNameLabel.Location = new System.Drawing.Point(4, 62);
+            this.firstNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.firstNameLabel.Name = "firstNameLabel";
-            this.firstNameLabel.Size = new System.Drawing.Size(162, 13);
+            this.firstNameLabel.Size = new System.Drawing.Size(217, 17);
             this.firstNameLabel.TabIndex = 19;
             this.firstNameLabel.Text = "Имя:";
             this.firstNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -281,11 +295,11 @@ namespace проект
             this.FirstNameTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.FirstNameTL.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FirstNameTL.ForeColor = System.Drawing.Color.White;
-            this.FirstNameTL.Location = new System.Drawing.Point(171, 44);
-            this.FirstNameTL.Margin = new System.Windows.Forms.Padding(3, 0, 10, 0);
-            this.FirstNameTL.MinimumSize = new System.Drawing.Size(100, 25);
+            this.FirstNameTL.Location = new System.Drawing.Point(229, 55);
+            this.FirstNameTL.Margin = new System.Windows.Forms.Padding(4, 0, 13, 0);
+            this.FirstNameTL.MinimumSize = new System.Drawing.Size(133, 31);
             this.FirstNameTL.Name = "FirstNameTL";
-            this.FirstNameTL.Size = new System.Drawing.Size(241, 25);
+            this.FirstNameTL.Size = new System.Drawing.Size(321, 31);
             this.FirstNameTL.TabIndex = 25;
             // 
             // surNameLabel
@@ -294,9 +308,10 @@ namespace проект
             this.surNameLabel.AutoSize = true;
             this.surNameLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.surNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.surNameLabel.Location = new System.Drawing.Point(3, 88);
+            this.surNameLabel.Location = new System.Drawing.Point(4, 109);
+            this.surNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.surNameLabel.Name = "surNameLabel";
-            this.surNameLabel.Size = new System.Drawing.Size(162, 13);
+            this.surNameLabel.Size = new System.Drawing.Size(217, 17);
             this.surNameLabel.TabIndex = 20;
             this.surNameLabel.Text = "Отчество:";
             this.surNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -307,11 +322,11 @@ namespace проект
             this.SurNameTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.SurNameTL.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.SurNameTL.ForeColor = System.Drawing.Color.White;
-            this.SurNameTL.Location = new System.Drawing.Point(171, 82);
-            this.SurNameTL.Margin = new System.Windows.Forms.Padding(3, 0, 10, 0);
-            this.SurNameTL.MinimumSize = new System.Drawing.Size(100, 25);
+            this.SurNameTL.Location = new System.Drawing.Point(229, 102);
+            this.SurNameTL.Margin = new System.Windows.Forms.Padding(4, 0, 13, 0);
+            this.SurNameTL.MinimumSize = new System.Drawing.Size(133, 31);
             this.SurNameTL.Name = "SurNameTL";
-            this.SurNameTL.Size = new System.Drawing.Size(241, 25);
+            this.SurNameTL.Size = new System.Drawing.Size(321, 31);
             this.SurNameTL.TabIndex = 26;
             // 
             // phoneLabel
@@ -320,9 +335,10 @@ namespace проект
             this.phoneLabel.AutoSize = true;
             this.phoneLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.phoneLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.phoneLabel.Location = new System.Drawing.Point(3, 126);
+            this.phoneLabel.Location = new System.Drawing.Point(4, 156);
+            this.phoneLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.phoneLabel.Name = "phoneLabel";
-            this.phoneLabel.Size = new System.Drawing.Size(162, 13);
+            this.phoneLabel.Size = new System.Drawing.Size(217, 17);
             this.phoneLabel.TabIndex = 21;
             this.phoneLabel.Text = "Номер телефона:";
             this.phoneLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -333,11 +349,11 @@ namespace проект
             this.PhoneTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.PhoneTL.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.PhoneTL.ForeColor = System.Drawing.Color.White;
-            this.PhoneTL.Location = new System.Drawing.Point(171, 120);
-            this.PhoneTL.Margin = new System.Windows.Forms.Padding(3, 0, 10, 0);
-            this.PhoneTL.MinimumSize = new System.Drawing.Size(150, 25);
+            this.PhoneTL.Location = new System.Drawing.Point(229, 149);
+            this.PhoneTL.Margin = new System.Windows.Forms.Padding(4, 0, 13, 0);
+            this.PhoneTL.MinimumSize = new System.Drawing.Size(200, 31);
             this.PhoneTL.Name = "PhoneTL";
-            this.PhoneTL.Size = new System.Drawing.Size(241, 25);
+            this.PhoneTL.Size = new System.Drawing.Size(321, 31);
             this.PhoneTL.TabIndex = 27;
             // 
             // dateLabel
@@ -346,9 +362,10 @@ namespace проект
             this.dateLabel.AutoSize = true;
             this.dateLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dateLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.dateLabel.Location = new System.Drawing.Point(3, 164);
+            this.dateLabel.Location = new System.Drawing.Point(4, 203);
+            this.dateLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.dateLabel.Name = "dateLabel";
-            this.dateLabel.Size = new System.Drawing.Size(162, 13);
+            this.dateLabel.Size = new System.Drawing.Size(217, 17);
             this.dateLabel.TabIndex = 7;
             this.dateLabel.Text = "Дата рождения:";
             this.dateLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -359,11 +376,11 @@ namespace проект
             this.DateTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.DateTL.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.DateTL.ForeColor = System.Drawing.Color.White;
-            this.DateTL.Location = new System.Drawing.Point(171, 158);
-            this.DateTL.Margin = new System.Windows.Forms.Padding(3, 0, 10, 0);
-            this.DateTL.MinimumSize = new System.Drawing.Size(150, 25);
+            this.DateTL.Location = new System.Drawing.Point(229, 196);
+            this.DateTL.Margin = new System.Windows.Forms.Padding(4, 0, 13, 0);
+            this.DateTL.MinimumSize = new System.Drawing.Size(200, 31);
             this.DateTL.Name = "DateTL";
-            this.DateTL.Size = new System.Drawing.Size(241, 25);
+            this.DateTL.Size = new System.Drawing.Size(321, 31);
             this.DateTL.TabIndex = 28;
             // 
             // fulldescriptionLabel
@@ -372,9 +389,10 @@ namespace проект
             this.fulldescriptionLabel.AutoSize = true;
             this.fulldescriptionLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.fulldescriptionLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.fulldescriptionLabel.Location = new System.Drawing.Point(3, 250);
+            this.fulldescriptionLabel.Location = new System.Drawing.Point(4, 307);
+            this.fulldescriptionLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.fulldescriptionLabel.Name = "fulldescriptionLabel";
-            this.fulldescriptionLabel.Size = new System.Drawing.Size(162, 13);
+            this.fulldescriptionLabel.Size = new System.Drawing.Size(217, 17);
             this.fulldescriptionLabel.TabIndex = 15;
             this.fulldescriptionLabel.Text = "Полное описание:";
             this.fulldescriptionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -388,22 +406,24 @@ namespace проект
             this.FullDescTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.FullDescTL.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FullDescTL.ForeColor = System.Drawing.Color.White;
-            this.FullDescTL.Location = new System.Drawing.Point(171, 190);
-            this.FullDescTL.Margin = new System.Windows.Forms.Padding(3, 0, 10, 10);
-            this.FullDescTL.MinimumSize = new System.Drawing.Size(200, 60);
+            this.FullDescTL.Location = new System.Drawing.Point(229, 235);
+            this.FullDescTL.Margin = new System.Windows.Forms.Padding(4, 0, 13, 12);
+            this.FullDescTL.MinimumSize = new System.Drawing.Size(267, 74);
             this.FullDescTL.Name = "FullDescTL";
-            this.FullDescTL.Size = new System.Drawing.Size(241, 123);
+            this.FullDescTL.Size = new System.Drawing.Size(321, 150);
             this.FullDescTL.TabIndex = 29;
             this.FullDescTL.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // FriendCardForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.ClientSize = new System.Drawing.Size(664, 415);
+            this.ClientSize = new System.Drawing.Size(885, 511);
             this.Controls.Add(this.mainTableLayout);
-            this.MinimumSize = new System.Drawing.Size(680, 454);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MinimumSize = new System.Drawing.Size(901, 548);
             this.Name = "FriendCardForm";
             this.Load += new System.EventHandler(this.FriendCardForm_Load);
             this.mainTableLayout.ResumeLayout(false);

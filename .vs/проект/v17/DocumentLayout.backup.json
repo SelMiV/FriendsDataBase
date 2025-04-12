@@ -1,61 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\",
+  "WorkspaceRootPath": "C:\\tools\\PortableGit\\FriendsDataBase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|d:\\downloads\\uglyabez9na\\friendsdatabase\\addfriendform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:addfriendform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|D:\\downloads\\uglyabez9na\\FriendsDataBase\\friendcardform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:friendcardform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|D:\\downloads\\uglyabez9na\\FriendsDataBase\\friendcardform .designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:friendcardform .designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|D:\\downloads\\uglyabez9na\\FriendsDataBase\\friendcardform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:friendcardform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|D:\\downloads\\uglyabez9na\\FriendsDataBase\\addfriendform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:addfriendform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|D:\\downloads\\uglyabez9na\\FriendsDataBase\\addfriendform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:addfriendform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|D:\\downloads\\uglyabez9na\\FriendsDataBase\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|D:\\downloads\\uglyabez9na\\FriendsDataBase\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\tools\\PortableGit\\FriendsDataBase\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|D:\\downloads\\uglyabez9na\\FriendsDataBase\\roundbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:roundbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|D:\\downloads\\uglyabez9na\\FriendsDataBase\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\tools\\PortableGit\\FriendsDataBase\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|D:\\downloads\\uglyabez9na\\FriendsDataBase\\sqlitedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\tools\\PortableGit\\FriendsDataBase\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\tools\\PortableGit\\FriendsDataBase\\friendcardform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:friendcardform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\tools\\PortableGit\\FriendsDataBase\\friendcardform .designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:friendcardform .designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\tools\\PortableGit\\FriendsDataBase\\friendcardform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:friendcardform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|c:\\tools\\portablegit\\friendsdatabase\\addfriendform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:addfriendform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\tools\\PortableGit\\FriendsDataBase\\addfriendform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:addfriendform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\tools\\PortableGit\\FriendsDataBase\\addfriendform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:addfriendform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\tools\\PortableGit\\FriendsDataBase\\roundbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:roundbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\tools\\PortableGit\\FriendsDataBase\\sqlitedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:sqlitedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|D:\\downloads\\uglyabez9na\\FriendsDataBase\\friend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\tools\\PortableGit\\FriendsDataBase\\friend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:friend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|D:\\downloads\\uglyabez9na\\FriendsDataBase\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\tools\\PortableGit\\FriendsDataBase\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|D:\\downloads\\uglyabez9na\\FriendsDataBase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|C:\\tools\\PortableGit\\FriendsDataBase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DB7B74A-F93D-4D00-B97A-52E37DDFE16C}|\u043F\u0440\u043E\u0435\u043A\u0442.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -66,27 +66,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 12,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FriendCardForm .Designer.cs",
-              "DocumentMoniker": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\FriendCardForm .Designer.cs",
-              "RelativeDocumentMoniker": "FriendCardForm .Designer.cs",
-              "ToolTip": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\FriendCardForm .Designer.cs",
-              "RelativeToolTip": "FriendCardForm .Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T06:01:32.898Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
+              "Title": "FriendCardForm .Designer.cs",
+              "DocumentMoniker": "C:\\tools\\PortableGit\\FriendsDataBase\\FriendCardForm .Designer.cs",
+              "RelativeDocumentMoniker": "FriendCardForm .Designer.cs",
+              "ToolTip": "C:\\tools\\PortableGit\\FriendsDataBase\\FriendCardForm .Designer.cs*",
+              "RelativeToolTip": "FriendCardForm .Designer.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T06:01:32.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "RoundButton.cs",
-              "DocumentMoniker": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\RoundButton.cs",
+              "DocumentMoniker": "C:\\tools\\PortableGit\\FriendsDataBase\\RoundButton.cs",
               "RelativeDocumentMoniker": "RoundButton.cs",
-              "ToolTip": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\RoundButton.cs",
+              "ToolTip": "C:\\tools\\PortableGit\\FriendsDataBase\\RoundButton.cs",
               "RelativeToolTip": "RoundButton.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAkwB4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -94,12 +103,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "AddFriendForm.Designer.cs",
-              "DocumentMoniker": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\AddFriendForm.Designer.cs",
+              "DocumentMoniker": "C:\\tools\\PortableGit\\FriendsDataBase\\AddFriendForm.Designer.cs",
               "RelativeDocumentMoniker": "AddFriendForm.Designer.cs",
-              "ToolTip": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\AddFriendForm.Designer.cs",
-              "RelativeToolTip": "AddFriendForm.Designer.cs",
+              "ToolTip": "C:\\tools\\PortableGit\\FriendsDataBase\\AddFriendForm.Designer.cs*",
+              "RelativeToolTip": "AddFriendForm.Designer.cs*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T21:40:41.65Z",
@@ -107,12 +116,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "AddFriendForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\AddFriendForm.cs",
+              "DocumentMoniker": "C:\\tools\\PortableGit\\FriendsDataBase\\AddFriendForm.cs",
               "RelativeDocumentMoniker": "AddFriendForm.cs",
-              "ToolTip": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\AddFriendForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "AddFriendForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "C:\\tools\\PortableGit\\FriendsDataBase\\AddFriendForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "RelativeToolTip": "AddFriendForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T21:40:10.108Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
@@ -121,9 +130,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "SQLiteDataAccess.cs",
-              "DocumentMoniker": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\SQLiteDataAccess.cs",
+              "DocumentMoniker": "C:\\tools\\PortableGit\\FriendsDataBase\\SQLiteDataAccess.cs",
               "RelativeDocumentMoniker": "SQLiteDataAccess.cs",
-              "ToolTip": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\SQLiteDataAccess.cs",
+              "ToolTip": "C:\\tools\\PortableGit\\FriendsDataBase\\SQLiteDataAccess.cs",
               "RelativeToolTip": "SQLiteDataAccess.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAADIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -133,9 +142,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "App.config",
-              "DocumentMoniker": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\App.config",
+              "DocumentMoniker": "C:\\tools\\PortableGit\\FriendsDataBase\\App.config",
               "RelativeDocumentMoniker": "App.config",
-              "ToolTip": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\App.config",
+              "ToolTip": "C:\\tools\\PortableGit\\FriendsDataBase\\App.config",
               "RelativeToolTip": "App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
@@ -144,23 +153,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "FriendCardForm .cs",
-              "DocumentMoniker": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\FriendCardForm .cs",
+              "DocumentMoniker": "C:\\tools\\PortableGit\\FriendsDataBase\\FriendCardForm .cs",
               "RelativeDocumentMoniker": "FriendCardForm .cs",
-              "ToolTip": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\FriendCardForm .cs",
-              "RelativeToolTip": "FriendCardForm .cs",
+              "ToolTip": "C:\\tools\\PortableGit\\FriendsDataBase\\FriendCardForm .cs*",
+              "RelativeToolTip": "FriendCardForm .cs*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:29:02.162Z"
+              "WhenOpened": "2025-03-13T15:29:02.162Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "AddFriendForm.cs",
-              "DocumentMoniker": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\AddFriendForm.cs",
+              "DocumentMoniker": "C:\\tools\\PortableGit\\FriendsDataBase\\AddFriendForm.cs",
               "RelativeDocumentMoniker": "AddFriendForm.cs",
-              "ToolTip": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\AddFriendForm.cs",
+              "ToolTip": "C:\\tools\\PortableGit\\FriendsDataBase\\AddFriendForm.cs",
               "RelativeToolTip": "AddFriendForm.cs",
               "ViewState": "AgIAAM8AAAAAAAAAAAAQwDkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -168,56 +178,61 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "MainForm.Designer.cs",
-              "DocumentMoniker": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\tools\\PortableGit\\FriendsDataBase\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "MainForm.Designer.cs",
-              "ToolTip": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\MainForm.Designer.cs",
+              "ToolTip": "C:\\tools\\PortableGit\\FriendsDataBase\\MainForm.Designer.cs",
               "RelativeToolTip": "MainForm.Designer.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAAAFgAAABeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T14:17:33.745Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\MainForm.cs",
-              "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAADgvzIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:14:07.003Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:03:05.32Z"
+              "WhenOpened": "2025-03-25T14:17:33.745Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FriendCardForm .cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\FriendCardForm .cs",
-              "RelativeDocumentMoniker": "FriendCardForm .cs",
-              "ToolTip": "C:\\Users\\Mikhail\\Desktop\\FriendsDataBase\\FriendCardForm .cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\tools\\PortableGit\\FriendsDataBase\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\tools\\PortableGit\\FriendsDataBase\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAADgvzIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:03:23.396Z"
+              "WhenOpened": "2025-03-13T15:14:07.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\tools\\PortableGit\\FriendsDataBase\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\tools\\PortableGit\\FriendsDataBase\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:03:05.32Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FriendCardForm .cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\tools\\PortableGit\\FriendsDataBase\\FriendCardForm .cs",
+              "RelativeDocumentMoniker": "FriendCardForm .cs",
+              "ToolTip": "C:\\tools\\PortableGit\\FriendsDataBase\\FriendCardForm .cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "RelativeToolTip": "FriendCardForm .cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:03:23.396Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "Friend.cs",
-              "DocumentMoniker": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\Friend.cs",
+              "DocumentMoniker": "C:\\tools\\PortableGit\\FriendsDataBase\\Friend.cs",
               "RelativeDocumentMoniker": "Friend.cs",
-              "ToolTip": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\Friend.cs",
+              "ToolTip": "C:\\tools\\PortableGit\\FriendsDataBase\\Friend.cs",
               "RelativeToolTip": "Friend.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAzwAoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -227,9 +242,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\Program.cs",
+              "DocumentMoniker": "C:\\tools\\PortableGit\\FriendsDataBase\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\downloads\\uglyabez9na\\FriendsDataBase\\Program.cs",
+              "ToolTip": "C:\\tools\\PortableGit\\FriendsDataBase\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
