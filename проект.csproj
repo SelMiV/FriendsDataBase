@@ -95,6 +95,9 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="SQLiteDataAccess.cs" />
+    <None Include="Resources\Фон.png" />
+    <None Include="Resources\прямоугольник для контакта.png" />
+    <None Include="Resources\people.png" />
     <None Include="Resources\ad9f1d23e02dd9acda2decb2fd77ac29.png" />
     <EmbeddedResource Include="AddFriendForm.resx">
       <DependentUpon>AddFriendForm.cs</DependentUpon>

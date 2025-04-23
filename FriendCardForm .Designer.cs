@@ -1,16 +1,11 @@
-﻿namespace проект
+﻿using System.Drawing;
+using System.Windows.Forms;
+namespace проект
 {
     partial class FriendCardForm
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,64 +17,72 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
-            this.photoPictureBox = new System.Windows.Forms.PictureBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FriendCardForm));
+            this.mainTableLayout = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.editButton = new проект.RoundButtons();
             this.deliteButton = new проект.RoundButtons();
             this.backButton = new проект.RoundButtons();
-            this.dateLabel = new System.Windows.Forms.Label();
-            this.fulldescriptionLabel = new System.Windows.Forms.Label();
-            this.lastNameLabel = new System.Windows.Forms.Label();
-            this.firstNameLabel = new System.Windows.Forms.Label();
-            this.surNameLabel = new System.Windows.Forms.Label();
-            this.phoneLabel = new System.Windows.Forms.Label();
+            this.contentTableLayout = new System.Windows.Forms.TableLayoutPanel();
+            this.photoPanel = new System.Windows.Forms.Panel();
+            this.photoPictureBox = new System.Windows.Forms.PictureBox();
             this.photoLabel = new System.Windows.Forms.Label();
+            this.detailsPanel = new System.Windows.Forms.Panel();
+            this.detailsTableLayout = new System.Windows.Forms.TableLayoutPanel();
+            this.lastNameLabel = new System.Windows.Forms.Label();
             this.LastNameTL = new System.Windows.Forms.Label();
+            this.firstNameLabel = new System.Windows.Forms.Label();
             this.FirstNameTL = new System.Windows.Forms.Label();
+            this.surNameLabel = new System.Windows.Forms.Label();
             this.SurNameTL = new System.Windows.Forms.Label();
+            this.phoneLabel = new System.Windows.Forms.Label();
             this.PhoneTL = new System.Windows.Forms.Label();
+            this.dateLabel = new System.Windows.Forms.Label();
             this.DateTL = new System.Windows.Forms.Label();
+            this.fulldescriptionLabel = new System.Windows.Forms.Label();
             this.FullDescTL = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.photoPictureBox)).BeginInit();
+            this.mainTableLayout.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.contentTableLayout.SuspendLayout();
+            this.photoPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.photoPictureBox)).BeginInit();
+            this.detailsPanel.SuspendLayout();
+            this.detailsTableLayout.SuspendLayout();
             this.SuspendLayout();
             // 
-            // photoPictureBox
+            // mainTableLayout
             // 
-            this.photoPictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.photoPictureBox.BackColor = System.Drawing.Color.Transparent;
-            this.photoPictureBox.Location = new System.Drawing.Point(59, 155);
-            this.photoPictureBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.photoPictureBox.Name = "photoPictureBox";
-            this.photoPictureBox.Size = new System.Drawing.Size(229, 262);
-            this.photoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.photoPictureBox.TabIndex = 0;
-            this.photoPictureBox.TabStop = false;
-            this.photoPictureBox.Click += new System.EventHandler(this.photoPictureBox_Click);
+            this.mainTableLayout.ColumnCount = 1;
+            this.mainTableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.mainTableLayout.Controls.Add(this.panel1, 0, 0);
+            this.mainTableLayout.Controls.Add(this.contentTableLayout, 0, 1);
+            this.mainTableLayout.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mainTableLayout.Location = new System.Drawing.Point(0, 0);
+            this.mainTableLayout.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.mainTableLayout.Name = "mainTableLayout";
+            this.mainTableLayout.RowCount = 2;
+            this.mainTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 98F));
+            this.mainTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.mainTableLayout.Size = new System.Drawing.Size(885, 511);
+            this.mainTableLayout.TabIndex = 0;
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.editButton);
             this.panel1.Controls.Add(this.deliteButton);
             this.panel1.Controls.Add(this.backButton);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(882, 100);
-            this.panel1.TabIndex = 6;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.panel1.Size = new System.Drawing.Size(877, 90);
+            this.panel1.TabIndex = 0;
             // 
             // editButton
             // 
+            this.editButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.editButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.editButton.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.editButton.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
@@ -90,10 +93,11 @@
             this.editButton.ButtonPressedColor2 = System.Drawing.Color.White;
             this.editButton.ButtonPressedForeColor = System.Drawing.Color.Black;
             this.editButton.ButtonRoundRadius = 30;
+            this.editButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.editButton.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.editButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.editButton.Location = new System.Drawing.Point(641, 26);
-            this.editButton.Margin = new System.Windows.Forms.Padding(4);
+            this.editButton.Location = new System.Drawing.Point(643, 21);
+            this.editButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.editButton.Name = "editButton";
             this.editButton.Size = new System.Drawing.Size(159, 49);
             this.editButton.TabIndex = 2;
@@ -102,6 +106,7 @@
             // 
             // deliteButton
             // 
+            this.deliteButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.deliteButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.deliteButton.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.deliteButton.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
@@ -112,10 +117,11 @@
             this.deliteButton.ButtonPressedColor2 = System.Drawing.Color.White;
             this.deliteButton.ButtonPressedForeColor = System.Drawing.Color.Black;
             this.deliteButton.ButtonRoundRadius = 30;
+            this.deliteButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.deliteButton.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.deliteButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.deliteButton.Location = new System.Drawing.Point(471, 26);
-            this.deliteButton.Margin = new System.Windows.Forms.Padding(4);
+            this.deliteButton.Location = new System.Drawing.Point(472, 21);
+            this.deliteButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.deliteButton.Name = "deliteButton";
             this.deliteButton.Size = new System.Drawing.Size(133, 49);
             this.deliteButton.TabIndex = 1;
@@ -134,226 +140,329 @@
             this.backButton.ButtonPressedColor2 = System.Drawing.Color.White;
             this.backButton.ButtonPressedForeColor = System.Drawing.Color.Black;
             this.backButton.ButtonRoundRadius = 30;
+            this.backButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.backButton.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.backButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.backButton.Location = new System.Drawing.Point(33, 26);
-            this.backButton.Margin = new System.Windows.Forms.Padding(4);
+            this.backButton.Location = new System.Drawing.Point(33, 21);
+            this.backButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(133, 49);
             this.backButton.TabIndex = 0;
             this.backButton.Text = "Назад";
             this.backButton.Click += new System.EventHandler(this.backButton_Click);
             // 
-            // dateLabel
+            // contentTableLayout
             // 
-            this.dateLabel.AutoSize = true;
-            this.dateLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.dateLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.dateLabel.Location = new System.Drawing.Point(329, 266);
-            this.dateLabel.Name = "dateLabel";
-            this.dateLabel.Size = new System.Drawing.Size(148, 17);
-            this.dateLabel.TabIndex = 7;
-            this.dateLabel.Text = "Дата рождения:";
+            this.contentTableLayout.ColumnCount = 2;
+            this.contentTableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35F));
+            this.contentTableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 65F));
+            this.contentTableLayout.Controls.Add(this.photoPanel, 0, 0);
+            this.contentTableLayout.Controls.Add(this.detailsPanel, 1, 0);
+            this.contentTableLayout.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.contentTableLayout.Location = new System.Drawing.Point(4, 102);
+            this.contentTableLayout.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.contentTableLayout.Name = "contentTableLayout";
+            this.contentTableLayout.RowCount = 1;
+            this.contentTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.contentTableLayout.Size = new System.Drawing.Size(877, 405);
+            this.contentTableLayout.TabIndex = 1;
             // 
-            // fulldescriptionLabel
+            // photoPanel
             // 
-            this.fulldescriptionLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.photoPanel.Controls.Add(this.photoPictureBox);
+            this.photoPanel.Controls.Add(this.photoLabel);
+            this.photoPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.photoPanel.Location = new System.Drawing.Point(4, 4);
+            this.photoPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.photoPanel.Name = "photoPanel";
+            this.photoPanel.Size = new System.Drawing.Size(298, 397);
+            this.photoPanel.TabIndex = 0;
+            // 
+            // photoPictureBox
+            // 
+            this.photoPictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.fulldescriptionLabel.AutoSize = true;
-            this.fulldescriptionLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.fulldescriptionLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.fulldescriptionLabel.Location = new System.Drawing.Point(485, 320);
-            this.fulldescriptionLabel.Name = "fulldescriptionLabel";
-            this.fulldescriptionLabel.Size = new System.Drawing.Size(168, 17);
-            this.fulldescriptionLabel.TabIndex = 15;
-            this.fulldescriptionLabel.Text = "Полное описание:";
-            // 
-            // lastNameLabel
-            // 
-            this.lastNameLabel.AutoSize = true;
-            this.lastNameLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lastNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.lastNameLabel.Location = new System.Drawing.Point(331, 135);
-            this.lastNameLabel.Name = "lastNameLabel";
-            this.lastNameLabel.Size = new System.Drawing.Size(88, 17);
-            this.lastNameLabel.TabIndex = 18;
-            this.lastNameLabel.Text = "Фамилия:";
-            // 
-            // firstNameLabel
-            // 
-            this.firstNameLabel.AutoSize = true;
-            this.firstNameLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.firstNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.firstNameLabel.Location = new System.Drawing.Point(495, 135);
-            this.firstNameLabel.Name = "firstNameLabel";
-            this.firstNameLabel.Size = new System.Drawing.Size(48, 17);
-            this.firstNameLabel.TabIndex = 19;
-            this.firstNameLabel.Text = "Имя:";
-            // 
-            // surNameLabel
-            // 
-            this.surNameLabel.AutoSize = true;
-            this.surNameLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.surNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.surNameLabel.Location = new System.Drawing.Point(665, 135);
-            this.surNameLabel.Name = "surNameLabel";
-            this.surNameLabel.Size = new System.Drawing.Size(98, 17);
-            this.surNameLabel.TabIndex = 20;
-            this.surNameLabel.Text = "Отчество:";
-            // 
-            // phoneLabel
-            // 
-            this.phoneLabel.AutoSize = true;
-            this.phoneLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.phoneLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.phoneLabel.Location = new System.Drawing.Point(329, 215);
-            this.phoneLabel.Name = "phoneLabel";
-            this.phoneLabel.Size = new System.Drawing.Size(158, 17);
-            this.phoneLabel.TabIndex = 21;
-            this.phoneLabel.Text = "Номер телефона:";
+            this.photoPictureBox.BackColor = System.Drawing.Color.Transparent;
+            this.photoPictureBox.Location = new System.Drawing.Point(33, 62);
+            this.photoPictureBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.photoPictureBox.Name = "photoPictureBox";
+            this.photoPictureBox.Size = new System.Drawing.Size(230, 256);
+            this.photoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.photoPictureBox.TabIndex = 0;
+            this.photoPictureBox.TabStop = false;
+            this.photoPictureBox.Click += new System.EventHandler(this.photoPictureBox_Click);
             // 
             // photoLabel
             // 
+            this.photoLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.photoLabel.AutoSize = true;
             this.photoLabel.Font = new System.Drawing.Font("Lucida Console", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.photoLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
-            this.photoLabel.Location = new System.Drawing.Point(141, 133);
+            this.photoLabel.Location = new System.Drawing.Point(115, 25);
+            this.photoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.photoLabel.Name = "photoLabel";
             this.photoLabel.Size = new System.Drawing.Size(64, 19);
             this.photoLabel.TabIndex = 23;
             this.photoLabel.Text = "Фото:";
+            this.photoLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // detailsPanel
+            // 
+            this.detailsPanel.Controls.Add(this.detailsTableLayout);
+            this.detailsPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.detailsPanel.Location = new System.Drawing.Point(310, 4);
+            this.detailsPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.detailsPanel.Name = "detailsPanel";
+            this.detailsPanel.Size = new System.Drawing.Size(563, 397);
+            this.detailsPanel.TabIndex = 1;
+            // 
+            // detailsTableLayout
+            // 
+            this.detailsTableLayout.ColumnCount = 2;
+            this.detailsTableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
+            this.detailsTableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
+            this.detailsTableLayout.Controls.Add(this.lastNameLabel, 0, 0);
+            this.detailsTableLayout.Controls.Add(this.LastNameTL, 1, 0);
+            this.detailsTableLayout.Controls.Add(this.firstNameLabel, 0, 1);
+            this.detailsTableLayout.Controls.Add(this.FirstNameTL, 1, 1);
+            this.detailsTableLayout.Controls.Add(this.surNameLabel, 0, 2);
+            this.detailsTableLayout.Controls.Add(this.SurNameTL, 1, 2);
+            this.detailsTableLayout.Controls.Add(this.phoneLabel, 0, 3);
+            this.detailsTableLayout.Controls.Add(this.PhoneTL, 1, 3);
+            this.detailsTableLayout.Controls.Add(this.dateLabel, 0, 4);
+            this.detailsTableLayout.Controls.Add(this.DateTL, 1, 4);
+            this.detailsTableLayout.Controls.Add(this.fulldescriptionLabel, 0, 5);
+            this.detailsTableLayout.Controls.Add(this.FullDescTL, 1, 5);
+            this.detailsTableLayout.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.detailsTableLayout.Location = new System.Drawing.Point(0, 0);
+            this.detailsTableLayout.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.detailsTableLayout.Name = "detailsTableLayout";
+            this.detailsTableLayout.RowCount = 6;
+            this.detailsTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12F));
+            this.detailsTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12F));
+            this.detailsTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12F));
+            this.detailsTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12F));
+            this.detailsTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12F));
+            this.detailsTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
+            this.detailsTableLayout.Size = new System.Drawing.Size(563, 397);
+            this.detailsTableLayout.TabIndex = 0;
+            // 
+            // lastNameLabel
+            // 
+            this.lastNameLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lastNameLabel.AutoSize = true;
+            this.lastNameLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lastNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
+            this.lastNameLabel.Location = new System.Drawing.Point(4, 15);
+            this.lastNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lastNameLabel.Name = "lastNameLabel";
+            this.lastNameLabel.Size = new System.Drawing.Size(217, 17);
+            this.lastNameLabel.TabIndex = 18;
+            this.lastNameLabel.Text = "Фамилия:";
+            this.lastNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // LastNameTL
             // 
-            this.LastNameTL.AutoSize = true;
+            this.LastNameTL.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.LastNameTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.LastNameTL.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LastNameTL.ForeColor = System.Drawing.Color.White;
-            this.LastNameTL.Location = new System.Drawing.Point(329, 162);
-            this.LastNameTL.MaximumSize = new System.Drawing.Size(140, 25);
-            this.LastNameTL.MinimumSize = new System.Drawing.Size(140, 25);
+            this.LastNameTL.Location = new System.Drawing.Point(229, 8);
+            this.LastNameTL.Margin = new System.Windows.Forms.Padding(4, 0, 13, 0);
+            this.LastNameTL.MinimumSize = new System.Drawing.Size(133, 31);
             this.LastNameTL.Name = "LastNameTL";
-            this.LastNameTL.Size = new System.Drawing.Size(140, 25);
+            this.LastNameTL.Size = new System.Drawing.Size(321, 31);
             this.LastNameTL.TabIndex = 24;
+            // 
+            // firstNameLabel
+            // 
+            this.firstNameLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.firstNameLabel.AutoSize = true;
+            this.firstNameLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.firstNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
+            this.firstNameLabel.Location = new System.Drawing.Point(4, 62);
+            this.firstNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.firstNameLabel.Name = "firstNameLabel";
+            this.firstNameLabel.Size = new System.Drawing.Size(217, 17);
+            this.firstNameLabel.TabIndex = 19;
+            this.firstNameLabel.Text = "Имя:";
+            this.firstNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // FirstNameTL
             // 
-            this.FirstNameTL.AutoSize = true;
+            this.FirstNameTL.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.FirstNameTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.FirstNameTL.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FirstNameTL.ForeColor = System.Drawing.Color.White;
-            this.FirstNameTL.Location = new System.Drawing.Point(493, 162);
-            this.FirstNameTL.MaximumSize = new System.Drawing.Size(140, 25);
-            this.FirstNameTL.MinimumSize = new System.Drawing.Size(140, 25);
+            this.FirstNameTL.Location = new System.Drawing.Point(229, 55);
+            this.FirstNameTL.Margin = new System.Windows.Forms.Padding(4, 0, 13, 0);
+            this.FirstNameTL.MinimumSize = new System.Drawing.Size(133, 31);
             this.FirstNameTL.Name = "FirstNameTL";
-            this.FirstNameTL.Size = new System.Drawing.Size(140, 25);
+            this.FirstNameTL.Size = new System.Drawing.Size(321, 31);
             this.FirstNameTL.TabIndex = 25;
+            // 
+            // surNameLabel
+            // 
+            this.surNameLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.surNameLabel.AutoSize = true;
+            this.surNameLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.surNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
+            this.surNameLabel.Location = new System.Drawing.Point(4, 109);
+            this.surNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.surNameLabel.Name = "surNameLabel";
+            this.surNameLabel.Size = new System.Drawing.Size(217, 17);
+            this.surNameLabel.TabIndex = 20;
+            this.surNameLabel.Text = "Отчество:";
+            this.surNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // SurNameTL
             // 
-            this.SurNameTL.AutoSize = true;
+            this.SurNameTL.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.SurNameTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.SurNameTL.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.SurNameTL.ForeColor = System.Drawing.Color.White;
-            this.SurNameTL.Location = new System.Drawing.Point(660, 162);
-            this.SurNameTL.MaximumSize = new System.Drawing.Size(140, 25);
-            this.SurNameTL.MinimumSize = new System.Drawing.Size(140, 25);
+            this.SurNameTL.Location = new System.Drawing.Point(229, 102);
+            this.SurNameTL.Margin = new System.Windows.Forms.Padding(4, 0, 13, 0);
+            this.SurNameTL.MinimumSize = new System.Drawing.Size(133, 31);
             this.SurNameTL.Name = "SurNameTL";
-            this.SurNameTL.Size = new System.Drawing.Size(140, 25);
+            this.SurNameTL.Size = new System.Drawing.Size(321, 31);
             this.SurNameTL.TabIndex = 26;
+            // 
+            // phoneLabel
+            // 
+            this.phoneLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.phoneLabel.AutoSize = true;
+            this.phoneLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.phoneLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
+            this.phoneLabel.Location = new System.Drawing.Point(4, 156);
+            this.phoneLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.phoneLabel.Name = "phoneLabel";
+            this.phoneLabel.Size = new System.Drawing.Size(217, 17);
+            this.phoneLabel.TabIndex = 21;
+            this.phoneLabel.Text = "Номер телефона:";
+            this.phoneLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // PhoneTL
             // 
-            this.PhoneTL.AutoSize = true;
+            this.PhoneTL.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.PhoneTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.PhoneTL.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.PhoneTL.ForeColor = System.Drawing.Color.White;
-            this.PhoneTL.Location = new System.Drawing.Point(508, 212);
-            this.PhoneTL.MaximumSize = new System.Drawing.Size(140, 25);
-            this.PhoneTL.MinimumSize = new System.Drawing.Size(200, 25);
+            this.PhoneTL.Location = new System.Drawing.Point(229, 149);
+            this.PhoneTL.Margin = new System.Windows.Forms.Padding(4, 0, 13, 0);
+            this.PhoneTL.MinimumSize = new System.Drawing.Size(200, 31);
             this.PhoneTL.Name = "PhoneTL";
-            this.PhoneTL.Size = new System.Drawing.Size(200, 25);
+            this.PhoneTL.Size = new System.Drawing.Size(321, 31);
             this.PhoneTL.TabIndex = 27;
+            // 
+            // dateLabel
+            // 
+            this.dateLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.dateLabel.AutoSize = true;
+            this.dateLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.dateLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
+            this.dateLabel.Location = new System.Drawing.Point(4, 203);
+            this.dateLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.dateLabel.Name = "dateLabel";
+            this.dateLabel.Size = new System.Drawing.Size(217, 17);
+            this.dateLabel.TabIndex = 7;
+            this.dateLabel.Text = "Дата рождения:";
+            this.dateLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // DateTL
             // 
-            this.DateTL.AutoSize = true;
+            this.DateTL.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.DateTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.DateTL.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.DateTL.ForeColor = System.Drawing.Color.White;
-            this.DateTL.Location = new System.Drawing.Point(508, 262);
-            this.DateTL.MaximumSize = new System.Drawing.Size(140, 25);
-            this.DateTL.MinimumSize = new System.Drawing.Size(200, 25);
+            this.DateTL.Location = new System.Drawing.Point(229, 196);
+            this.DateTL.Margin = new System.Windows.Forms.Padding(4, 0, 13, 0);
+            this.DateTL.MinimumSize = new System.Drawing.Size(200, 31);
             this.DateTL.Name = "DateTL";
-            this.DateTL.Size = new System.Drawing.Size(200, 25);
+            this.DateTL.Size = new System.Drawing.Size(321, 31);
             this.DateTL.TabIndex = 28;
+            // 
+            // fulldescriptionLabel
+            // 
+            this.fulldescriptionLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.fulldescriptionLabel.AutoSize = true;
+            this.fulldescriptionLabel.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.fulldescriptionLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(153)))), ((int)(((byte)(166)))));
+            this.fulldescriptionLabel.Location = new System.Drawing.Point(4, 307);
+            this.fulldescriptionLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.fulldescriptionLabel.Name = "fulldescriptionLabel";
+            this.fulldescriptionLabel.Size = new System.Drawing.Size(217, 17);
+            this.fulldescriptionLabel.TabIndex = 15;
+            this.fulldescriptionLabel.Text = "Полное описание:";
+            this.fulldescriptionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // FullDescTL
             // 
+            this.FullDescTL.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.FullDescTL.AutoSize = true;
             this.FullDescTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
             this.FullDescTL.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FullDescTL.ForeColor = System.Drawing.Color.White;
-            this.FullDescTL.Location = new System.Drawing.Point(331, 353);
-            this.FullDescTL.MaximumSize = new System.Drawing.Size(451, 126);
-            this.FullDescTL.MinimumSize = new System.Drawing.Size(451, 25);
+            this.FullDescTL.Location = new System.Drawing.Point(229, 235);
+            this.FullDescTL.Margin = new System.Windows.Forms.Padding(4, 0, 13, 12);
+            this.FullDescTL.MinimumSize = new System.Drawing.Size(267, 74);
             this.FullDescTL.Name = "FullDescTL";
-            this.FullDescTL.Size = new System.Drawing.Size(451, 25);
+            this.FullDescTL.Size = new System.Drawing.Size(321, 150);
             this.FullDescTL.TabIndex = 29;
+            this.FullDescTL.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // FriendCardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.ClientSize = new System.Drawing.Size(882, 503);
-            this.Controls.Add(this.FullDescTL);
-            this.Controls.Add(this.DateTL);
-            this.Controls.Add(this.PhoneTL);
-            this.Controls.Add(this.SurNameTL);
-            this.Controls.Add(this.FirstNameTL);
-            this.Controls.Add(this.LastNameTL);
-            this.Controls.Add(this.photoLabel);
-            this.Controls.Add(this.phoneLabel);
-            this.Controls.Add(this.surNameLabel);
-            this.Controls.Add(this.firstNameLabel);
-            this.Controls.Add(this.lastNameLabel);
-            this.Controls.Add(this.fulldescriptionLabel);
-            this.Controls.Add(this.dateLabel);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.photoPictureBox);
-            this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.MinimumSize = new System.Drawing.Size(900, 550);
+            this.ClientSize = new System.Drawing.Size(885, 511);
+            this.Controls.Add(this.mainTableLayout);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MinimumSize = new System.Drawing.Size(901, 548);
             this.Name = "FriendCardForm";
             this.Load += new System.EventHandler(this.FriendCardForm_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.photoPictureBox)).EndInit();
+            this.mainTableLayout.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.contentTableLayout.ResumeLayout(false);
+            this.photoPanel.ResumeLayout(false);
+            this.photoPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.photoPictureBox)).EndInit();
+            this.detailsPanel.ResumeLayout(false);
+            this.detailsTableLayout.ResumeLayout(false);
+            this.detailsTableLayout.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox photoPictureBox;
+        private System.Windows.Forms.TableLayoutPanel mainTableLayout;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label dateLabel;
-        private System.Windows.Forms.Label fulldescriptionLabel;
-        private System.Windows.Forms.Label lastNameLabel;
-        private System.Windows.Forms.Label firstNameLabel;
-        private System.Windows.Forms.Label surNameLabel;
-        private System.Windows.Forms.Label phoneLabel;
-        private System.Windows.Forms.Label photoLabel;
-        private System.Windows.Forms.Label LastNameTL;
-        private System.Windows.Forms.Label FirstNameTL;
-        private System.Windows.Forms.Label SurNameTL;
-        private System.Windows.Forms.Label PhoneTL;
-        private System.Windows.Forms.Label DateTL;
-        private System.Windows.Forms.Label FullDescTL;
         private RoundButtons editButton;
         private RoundButtons deliteButton;
         private RoundButtons backButton;
+        private System.Windows.Forms.TableLayoutPanel contentTableLayout;
+        private System.Windows.Forms.Panel photoPanel;
+        private System.Windows.Forms.PictureBox photoPictureBox;
+        private System.Windows.Forms.Label photoLabel;
+        private System.Windows.Forms.Panel detailsPanel;
+        private System.Windows.Forms.TableLayoutPanel detailsTableLayout;
+        private System.Windows.Forms.Label lastNameLabel;
+        private System.Windows.Forms.Label LastNameTL;
+        private System.Windows.Forms.Label firstNameLabel;
+        private System.Windows.Forms.Label FirstNameTL;
+        private System.Windows.Forms.Label surNameLabel;
+        private System.Windows.Forms.Label SurNameTL;
+        private System.Windows.Forms.Label phoneLabel;
+        private System.Windows.Forms.Label PhoneTL;
+        private System.Windows.Forms.Label dateLabel;
+        private System.Windows.Forms.Label DateTL;
+        private System.Windows.Forms.Label fulldescriptionLabel;
+        private System.Windows.Forms.Label FullDescTL;
     }
 }

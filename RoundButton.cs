@@ -28,6 +28,7 @@ namespace проект
 
         public RoundButton()
         {
+            
             Size = new Size(100, 40);
             ButtonRoundRadius = 30;
             BackColor = Color.Gainsboro;
